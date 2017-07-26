@@ -1,0 +1,163 @@
+/* general properties */
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  margin: 12px 0px;
+}
+
+h4 {
+  margin: 10px 0px;
+}
+
+a {
+  color: seashell;
+}
+
+/* header section */
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  z-index: 5;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  display: flex;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav span{
+  padding: 0px 10px;
+}
+
+/* content section */
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 69px;
+}
+
+/* mission section */
+#mission {
+  background-image: url('../images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+#mission span {
+  background-color: black;
+}
+
+/* featured section */
+#featured {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  width: 1000px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.top3 {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.top4and5 {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.top4and5 .category {
+  margin: 0px 25px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.category img {
+  height: 200px;
+  width: 300px;
+}
+
+.category h4 {
+  margin-top: 10px;
+}
+
+/* locations section */
+#locations {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  background-image: url('../images/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+}
+
+#locations h2 {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.areas {
+  display: flex;
+  justify-content: center;
+}
+
+.area {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.area h3{
+  margin: 0;
+}
+
+/* contact section */
+.contact {
+  height: 200px;
+}
+
+/* footer */
+footer h5 {
+  margin-left: 20px;
+  text-align: left;
+}
